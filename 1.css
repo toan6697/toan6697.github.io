@@ -1,1 +1,49 @@
-*{margin: 0; padding: 0;} 
+*{margin: 0; padding: 0;}
+
+li.nav-item {
+    padding: 0;
+    margin: 0 17px;
+}
+
+a.nav-link {
+    font-size: 13px;
+    font-family: segoe ui;
+    text-transform: uppercase;
+    color: #1010;
+    line-height: 80px;
+}
+
+nav.navbar.navbar-light.bg-faded {
+    margin: 0;
+    padding: 0;
+    height: 105px;
+} 
+.bg-faded {
+    background-color: #e8f0f5;
+}
+@media(max-width: 576px){
+	*{}
+
+ul.nav.navbar-nav.float-xs-right {
+    float: none;
+    text-align:center;
+    margin-left:13%;
+}
+
+li.nav-item {
+    display: inline;
+    margin:auto 0;
+}
+
+a.nav-link {
+    display: inline;
+    line-height: 27px;
+}
+
+a.navbar-brand {
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+}
