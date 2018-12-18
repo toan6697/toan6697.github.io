@@ -1,5 +1,145 @@
 *{margin: 0; padding: 0;}
 
+.nutlen {
+    width: 40px;
+    height: 40px;
+    background: #e44c52;
+    position: relative;
+    left: 50%;
+    bottom: 10%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.nutlen span{
+	color: white;
+	position: relative;
+	top: 20%;
+	/* transform: translateY(-50%); */
+	left: 42%;
+}
+.phai .tren {
+    margin-bottom: 10px;
+    color: #e44c52;
+    text-transform: uppercase;
+}
+html,body{
+	overflow-x: hidden;
+}
+.foot-right .phai {
+    position: relative;
+    color: white;
+    top: -97px;
+    left: 27%;
+    line-height: 28px;
+}
+
+.trai span {
+    display: block;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 32%;
+    font-size: 28px;
+    color: white;
+}
+
+.trai span.em{
+	margin-left: 7px;
+}
+.trai span.pho{
+	margin-left: 5px;
+}
+.trai {
+    width: 85px;
+    height: 82px;
+    background: #e4545b;
+    border-radius: 50%;
+}
+
+.thongtin {
+    margin-top: 113px;
+}
+
+textarea.message {
+    width: 93%;
+    margin-left: 90px;
+    background: #171717;
+    height: 180px;
+    border: 1px #171717 solid;
+    color: white;
+    font-family: segoe ui;
+    border-bottom: 2px solid #e44c52;
+    margin-top: 43px;
+}
+
+.chuot:before {
+    content: "";
+    width: 3px;
+    height: 11px;
+    background: white;
+    position: absolute;
+    z-index: 1;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.phantren .chuot {
+    width: 50px;
+    height: 90px;
+    border: 1px white solid;
+    position: relative;
+    bottom: -115px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 46%;
+    cursor: pointer;
+}
+
+
+.khoittnho {
+    margin-bottom: 50px;
+}
+
+span.mota {
+    color: #e4545b;
+    display: block;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.khoittnho p {
+    font-size: 14px;
+    font-family: segoe ui light;
+    margin-top: 13px;
+}
+
+h3.tieudecap3 {
+    font-size: 20px;
+    font-family: sans-serif;
+    /* color: #e4545b; */
+}
+
+span.dam {
+    font-weight: bold;
+}
+
+h2.tieudecap2 {
+    font-size: 27px;
+    font-family: segoe ui light;
+    margin-bottom: 50px;
+}
+
+.tieudeto h1 {
+    font-size: 33px;
+    font-family: segoe ui;
+}
+
+.col-sm-12.tieudeto {
+    margin-top: 120px;
+    margin-bottom: 60px;
+}
+
 .phantren a:hover {
     cursor: pointer;
 }
@@ -13,7 +153,7 @@
     text-decoration: none;
 }
 
-p {
+.phantren p {
     margin: 15px 30%;
 }
 
@@ -133,4 +273,38 @@ a.navbar-brand {
     width: 100%;
 }
 
+}
+.cacsp{
+	width: 100%;
+	height: 600px;
+}
+.footer{
+	width: 100%;
+	height: 639px;
+	background: #171717;
+}
+input.name {
+    width: 85%;
+    margin-top: 110px;
+    background: #171717;
+    color: white;
+    border: 1px #171717 solid;
+    border-bottom: 2px #e44c52 solid;
+    line-height: 52px;
+    margin-left: 90px;
+}
+.btn-style-one {
+    position: relative;
+    padding: 7px 54px;
+    line-height: 24px;
+    background: #e4545b;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+    text-transform: uppercase;
+    border: 1px solid #e4545b;
+    font-family: 'Montserrat', sans-serif;
+    margin-left:90px ;
+    margin-top:36px ;
+    cursor: pointer;
 }
