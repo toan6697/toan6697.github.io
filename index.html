@@ -11,13 +11,13 @@
 </head>
 <body >
 	<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = 'https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v3.2&appId=588268384929611&autoLogAppEvents=1';
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = 'https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v3.2&appId=588268384929611&autoLogAppEvents=1';
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
      <div class="menutop">
 		<nav class="navbar navbar-light bg-faded navbar-fixed-top">
 			<div class="container">	
@@ -36,7 +36,7 @@
 					<a class="nav-link" href="#">Thông tin liên hệ</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Comment</a>
+					<a class="nav-link cmt" href="#">Comment</a>
 				</li>
 			</ul>
 			</div>
@@ -113,8 +113,9 @@
      	<h1 class="text-sm-center">Các sản phẩm</h1>
 
      </div>
-     <div class="col-sm-12 col-xs-12 facebookcomment">
+     <div class="container col-sm-12 col-xs-12 facebookcomment">
      	<h1 class="text-sm-center">Phản hồi</h1>
+     	<div class="col-sm-8 push-sm-2"></div>
                <div class="fb-comments" data-href="https://toan6697.github.io" data-width="576" data-numposts="5"></div>
      </div>
      <div class="footer">
