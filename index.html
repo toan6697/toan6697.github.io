@@ -10,10 +10,18 @@
  	<link rel="stylesheet" href="1.css">
 </head>
 <body >
+	<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v3.2&appId=588268384929611&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
      <div class="menutop">
 		<nav class="navbar navbar-light bg-faded navbar-fixed-top">
 			<div class="container">	
-			<a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo toannd"></a>
+			<a class="navbar-brand" href="#"><img src="images/logo.PNG" alt="logo toannd"></a>
 			<ul class="nav navbar-nav float-xs-right">
 				<li class="nav-item active">
 					<a class="nav-link" href="#">Giới thiệu <span class="sr-only">(current)</span></a>
@@ -101,9 +109,13 @@
      		</div>
      	</div>
      </div>
-     <div class="cacsp">
+     <div class="col-sm-12 col-xs-12 cacsp">
      	<h1 class="text-sm-center">Các sản phẩm</h1>
 
+     </div>
+     <div class="col-sm-12 col-xs-12 facebookcomment">
+     	<h1 class="text-sm-center">Phản hồi</h1>
+               <div class="fb-comments" data-href="https://toan6697.github.io" data-width="576" data-numposts="5"></div>
      </div>
      <div class="footer">
      	<div class="row">
@@ -130,7 +142,7 @@
      		  		</div>
      		  		<div class="phai">
      		  			<div class="tren">Email</div>
-     		  			<div class="duoi">info@company.com<br>domain@company.com</div>
+     		  			<div class="duoi">ductoan661997@gmail.com<br>domain@company.com</div>
      		  		</div>
      		  	</div>	
      		  	<div class="col-sm-12 col-xs-12 foot-right">
@@ -138,8 +150,8 @@
      		  			<span class="info-icon fa fa-map-marker em"></span>
      		  		</div>
      		  		<div class="phai">
-     		  			<div class="tren">Email</div>
-     		  			<div class="duoi">info@company.com<br>domain@company.com</div>
+     		  			<div class="tren">Adress</div>
+     		  			<div class="duoi">Andrew Cross 50 Front Street <br>KNOTTY GREEN HP9 2WB</div>
      		  		</div>
      		  	</div>
      		  	<div class="col-sm-12 col-xs-12 foot-right">
@@ -147,8 +159,8 @@
      		  			<span class="info-icon fa fa-phone pho"></span>
      		  		</div>
      		  		<div class="phai">
-     		  			<div class="tren">Email</div>
-     		  			<div class="duoi">info@company.com<br>domain@company.com</div>
+     		  			<div class="tren">Phone</div>
+     		  			<div class="duoi">+84 962-056-974<br></div>
      		  		</div>
      		  	</div>
      		</div>

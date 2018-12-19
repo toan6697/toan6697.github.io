@@ -5,5 +5,9 @@
      $('.sp').click(function(event) {
      	$('html,body').animate({ scrollTop: $(".cacsp").offset().top}, 500)
      });
+     $('.nutlen').click(function(event) {
+     	console.log('abc');
+     	$('html,body').animate({ scrollTop:0}, 500)
+     });
 })  
  
